@@ -39,7 +39,7 @@ class Solution:
                 i = max(st[s[j]], i)
             ans = max(ans, j - i + 1)
             st[s[j]] = j + 1
-        return ans;
+        return ans
 
 
 
